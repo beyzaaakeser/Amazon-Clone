@@ -127,7 +127,70 @@ span{
 
 .panel-ops p{
     display: inline-flex;
-    border: 1px solid red;
     height: 40px;
     padding: 0 3px;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 14px;
+}
+
+.panel-deals{
+    padding: 0 3px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panel-all{
+    display: flex;
+    align-items: center;
+}
+
+.panel-all i{
+    color: white;
+    font-size:20px;
+    padding-right: 10px;
+}
+
+.hero-section{
+    background-image: url("images/hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+
+}
+
+.hero-msg{
+    background-color: white;
+    width: 80%;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.hero-msg a{
+    color: #92bdc6;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.box{
+    border: 1px solid red;
+    height: 400px;
+    width: 23%;
+    padding: 20px 0 15px;
+}
+
+.box-img{
+    height: 300px;
+
 }

@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -277,7 +282,7 @@ span{
 }
 
 footer{
-    margin-bottom: 400px ;
+    margin-bottom: 4px ;
 }
 
 .foot-panel1{
@@ -303,11 +308,12 @@ footer{
 
 
 .foot-panel2{
+    padding-top: 20px;
     background-color: #222f3d;
     color: white;
     display: flex;
     justify-content: space-evenly;
-    height: 290px;
+    height: 220px;
 }
 
 .foot-panel2 a{
